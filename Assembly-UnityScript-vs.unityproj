@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{0A0ABA5B-3D38-2588-5904-0FEAEEC74CF7}</ProjectGuid>
+	<ProjectGuid>{F711A428-A16B-8D49-23E2-ADC5E008F079}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -37,14 +37,28 @@
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
 	<Reference Include="UnityEngine">
-	  <HintPath>D:/Programs/Unity/unity/editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>D:/Programs/Unity/editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>D:/Programs/Unity/unity/editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>D:/Programs/Unity/editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\scripts\patrol.js" />
+     <Compile Include="Assets\Scenes\Workspaces\WorkspaceAssets\HeroDoorExplorerController.js" />
+     <Compile Include="Assets\Scripts\Behavior.js" />
+     <Compile Include="Assets\Scripts\BehaviorImplHero.js" />
+     <Compile Include="Assets\Scripts\BehaviorImplMob.js" />
+     <Compile Include="Assets\Scripts\BehaviorImplNPC.js" />
+     <Compile Include="Assets\Scripts\BehaviorImplSidekick.js" />
+     <Compile Include="Assets\Scripts\Combat.js" />
+     <Compile Include="Assets\Scripts\DoorController.js" />
+     <Compile Include="Assets\Scripts\FaceDirection.js" />
+     <Compile Include="Assets\Scripts\GSXPCam.js" />
+     <Compile Include="Assets\Scripts\HitList.js" />
+     <Compile Include="Assets\Scripts\NPCMovement.js" />
+     <Compile Include="Assets\Scripts\RoomController.js" />
+     <Compile Include="Assets\Scripts\SidekickMovement.js" />
+     <Compile Include="Assets\Scripts\Stats.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
